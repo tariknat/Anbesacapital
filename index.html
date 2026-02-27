@@ -1,0 +1,488 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anbesa Capital</title>
+    <link rel="canonical" href="https://anbesacapital.com/">
+
+    <!-- SEO Optimization 2025 -->
+    <meta name="description" content="Anbesa Capital -- a premium financial domain for sale. Perfect for investment banking, capital management, and financial services companies.">
+    <meta name="keywords" content="Anbesa Capital, anbesacapital.com, Anbesa Capital investment bank, investment banking, finance, capital management, venture capital, capital market, financial domain for sale, premium domain">
+
+    <!-- Open Graph (for social media preview) -->
+    <meta property="og:title" content="Anbesa Capital">
+    <meta name="twitter:title" content="Anbesa Capital">
+    <meta property="og:description" content="Own AnbesaCapital.com -- a professional domain ideal for finance, investment bank, and capital management firms.">
+    <meta property="og:url" content="https://anbesacapital.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://anbesacapital.com/preview.jpg"> <!-- Note: This image link is illustrative -->
+    <link rel="icon" href="favicon.ico"> <!-- Note: This file is illustrative -->
+
+    <!-- TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- STRUCTURED DATA (Schema.org) - Service Schema to fix GSC Warnings -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Anbesa Capital & Securities Services",
+      "description": "Premium financial domain name for sale, suitable for investment banking and capital market services.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Anbesa Capital",
+        "url": "https://anbesacapital.com",
+        "logo": "https://anbesacapital.com/logo.png"
+      },
+      "serviceType": "Capital Market & Investment Services",
+      "areaServed": "ET"
+    }
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #0c1017; 
+        }
+        
+        /* Primary Blue Accent Color */
+        .text-blue-accent { color: #3b82f6; }
+        .bg-blue-accent { background-color: #3b82f6; }
+        .border-blue-accent { border-color: #3b82f6; }
+        
+        .text-anbesa-blue { color: #3b82f6; }
+        .border-anbesa-blue { border-color: #3b82f6; }
+        
+        /* Hero Section Styling */
+        .hero-bg {
+            background: linear-gradient(135deg, #0c1017 0%, #1a2333 100%);
+            position: relative;
+            overflow: hidden; 
+        }
+        
+        /* Canvas Styling for Animated Background */
+        #hero-canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1; 
+            opacity: 0.5;
+        }
+
+        /* Hero Content Container - Glassmorphism */
+        .hero-content {
+            position: relative;
+            z-index: 2; 
+            background: rgba(12, 16, 23, 0.6); 
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(59, 130, 246, 0.2); 
+            padding: 1.5rem;
+            border-radius: 1rem;
+            max-width: 95%; 
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+        }
+
+        /* CTA Button Styling */
+        @keyframes pulse-shadow {
+            0% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.5); }
+            70% { box-shadow: 0 0 0 15px rgba(59, 130, 246, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+        }
+        .cta-button {
+            transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+            font-weight: 700;
+        }
+        .cta-button:hover {
+            transform: translateY(-4px); 
+            box-shadow: 0 15px 35px rgba(59, 130, 246, 0.7);
+        }
+        .cta-button.pulse {
+            animation: pulse-shadow 2s infinite cubic-bezier(0.66, 0.0, 0.33, 1);
+        }
+
+        /* Scroll Animation Setup */
+        .animated-element {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+        .animated-element.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .icon-lg { 
+            width: 28px; 
+            height: 28px; 
+            color: #3b82f6; 
+            flex-shrink: 0;
+        }
+
+        .glass-card {
+            background: rgba(26, 35, 51, 0.6); 
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(59, 130, 246, 0.15); 
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+            border-color: rgba(59, 130, 246, 0.3);
+        }
+
+        /* Marquee Animation */
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        .animate-marquee {
+            display: flex;
+            width: fit-content;
+            animation: marquee 30s linear infinite;
+        }
+
+    </style>
+</head>
+<body class="text-gray-200">
+
+    <!-- Ticker Tape -->
+    <div class="border-b border-white/5 bg-[#0c1017] overflow-hidden py-2 relative z-50">
+        <div class="animate-marquee font-mono text-xs text-gray-400 tracking-widest">
+            <div class="flex gap-16 px-6 shrink-0">
+                <span class="flex items-center gap-2">ANBESACAPITAL.COM <span class="text-blue-accent">AVAILABLE</span></span>
+                <span class="flex items-center gap-2">ANBESACAPITALSC.COM <span class="text-blue-accent">AVAILABLE</span></span>
+                <span class="flex items-center gap-2">SECURE ESCROW <span class="text-white">ACTIVE</span></span>
+                <span class="flex items-center gap-2">SEO VALUE <span class="text-white">PRISTINE</span></span>
+                <span class="flex items-center gap-2">TRANSFER <span class="text-blue-accent">IMMEDIATE</span></span>
+                <span class="flex items-center gap-2">ANBESACAPITAL.COM <span class="text-blue-accent">AVAILABLE</span></span>
+                <span class="flex items-center gap-2">ANBESACAPITALSC.COM <span class="text-blue-accent">AVAILABLE</span></span>
+            </div>
+            <div class="flex gap-16 px-6 shrink-0">
+                <span class="flex items-center gap-2">ANBESACAPITAL.COM <span class="text-blue-accent">AVAILABLE</span></span>
+                <span class="flex items-center gap-2">ANBESACAPITALSC.COM <span class="text-blue-accent">AVAILABLE</span></span>
+                <span class="flex items-center gap-2">SECURE ESCROW <span class="text-white">ACTIVE</span></span>
+                <span class="flex items-center gap-2">SEO VALUE <span class="text-white">PRISTINE</span></span>
+                <span class="flex items-center gap-2">TRANSFER <span class="text-blue-accent">IMMEDIATE</span></span>
+                <span class="flex items-center gap-2">ANBESACAPITAL.COM <span class="text-blue-accent">AVAILABLE</span></span>
+                <span class="flex items-center gap-2">ANBESACAPITALSC.COM <span class="text-blue-accent">AVAILABLE</span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header / Logo -->
+    <header class="bg-[#1a2333] shadow-2xl sticky top-0 z-40 border-b border-gray-700/50">
+        <div class="max-w-7xl mx-auto p-4 flex justify-between items-center">
+            <div class="text-3xl font-extrabold tracking-tighter">
+                <span class="text-white">Anbesa</span><span class="text-blue-accent"> Capital</span>
+            </div>
+            <a href="https://sedo.com/search/details/?domain=anbesacapital.com" target="_blank" 
+               class="inline-block px-5 py-2.5 bg-blue-accent text-white rounded-lg hover:bg-blue-600 transition cta-button"
+               aria-label="Buy Now on Sedo">
+               Purchase Now
+            </a>
+        </div>
+    </header>
+
+    <!-- 1. Hero Section -->
+    <section class="hero-bg py-20 md:py-36 text-center border-b border-gray-700/50">
+        <canvas id="hero-canvas"></canvas>
+        
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 hero-content">
+            <p class="text-md uppercase tracking-widest text-blue-accent font-semibold mb-3 border border-blue-500/50 inline-block px-3 py-1 rounded-full">PREMIUM CAPITAL MARKET DOMAIN</p>
+            <h1 class="text-5xl md:text-8xl font-black tracking-tight mb-4 text-white drop-shadow-lg">Anbesa Capital</h1>
+            <p class="text-xl md:text-3xl font-light text-gray-300 mb-8">
+                <a href="https://sedo.com/search/details/?domain=anbesacapital.com" target="_blank" class="hover:text-blue-accent transition-colors duration-300">anbesacapital.com</a> | 
+                <a href="https://sedo.com/search/details/?domain=anbesacapitalsc.com" target="_blank" class="hover:text-blue-accent transition-colors duration-300">anbesacapitalsc.com</a>
+            </p>
+
+            <h2 class="text-3xl md:text-5xl font-extrabold mb-8 text-blue-300 bg-black/60 p-4 rounded-2xl inline-block shadow-2xl tracking-wide border-2 border-blue-500/70">DOMAIN FOR SALE</h2>
+            
+            <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8 leading-relaxed text-gray-100">
+                This is a rare, high-value opportunity in the capital markets. If you want to own the definitive brand for investment, banking, or capital management, act now before a competitor secures it.
+            </p>
+
+            <p class="text-lg text-blue-accent font-semibold mb-4">Take Action Today:</p>
+
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="https://sedo.com/search/details/?domain=anbesacapital.com" target="_blank" 
+                   class="cta-button pulse px-10 py-4 bg-blue-accent text-white rounded-xl shadow-2xl hover:bg-blue-600 transition transform"
+                   aria-label="Purchase the domain securely via Sedo">
+                   Buy Now on Sedo
+                </a>
+                <a href="mailto:dreamethio2@gmail.com" 
+                   class="cta-button px-10 py-4 bg-gray-700 text-white rounded-xl shadow-lg hover:bg-gray-600 transition transform"
+                   aria-label="Email the seller to submit an offer">
+                   Email Offer
+                </a>
+                <a href="https://t.me/sedo_domainseller" target="_blank" 
+                   class="cta-button px-10 py-4 bg-blue-700 text-white rounded-xl shadow-lg hover:bg-blue-800 transition transform"
+                   aria-label="Contact the seller via Telegram">
+                   Telegram Inquiry
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Opportunity Section -->
+    <section class="py-16 md:py-28 max-w-7xl mx-auto px-6 animated-element">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-4 text-white">Why Move Immediately</h2>
+            <div class="h-1 bg-blue-accent w-16 mx-auto rounded-full mb-8"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-8">
+                <p class="text-lg leading-relaxed text-gray-300">
+                    <strong class="text-white">anbesacapital.com and anbesacapitalsc.com</strong> deliver an authoritative, instantly memorable name that signals trust, leadership, and institutional strength. These domains are a perfect fit for a bank, investment firm, or trading platform looking for market dominance.
+                </p>
+                
+                <ul class="space-y-6">
+                    <li class="flex items-start">
+                        <svg class="icon-lg mt-1 mr-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+                        <div>
+                            <p class="text-lg font-bold text-white">High buyer interest</p>
+                            <p class="text-gray-400">Premium finance domains move fast. Waiting risks losing this asset.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="icon-lg mt-1 mr-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v7c0 1.25.7 2.45 2 3.2C8.25 17.8 10 18.25 12 18.25c2 0 3.75-.45 5-1.05 1.3-.75 2-1.95 2-3.2z"/><path d="m9 12 2 2 4-4"/></svg>
+                        <div>
+                            <p class="text-lg font-bold text-white">Brand safety</p>
+                            <p class="text-gray-400">Secure both variants to protect your brand identity from competitors.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="icon-lg mt-1 mr-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 13L2 9z"/><path d="M12 17l-10-8h20"/><path d="M2 9l10 8 10-8"/></svg>
+                        <div>
+                            <p class="text-lg font-bold text-white">Instant credibility</p>
+                            <p class="text-gray-400">An authoritative name gives your organization immediate trust with global investors.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="hidden md:block">
+                <div class="glass-card p-8 rounded-3xl shadow-2xl h-96 flex items-center justify-center border-2 border-blue-500/30">
+                    <svg class="w-32 h-32 text-blue-accent animate-pulse" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Value Props -->
+    <section class="bg-[#1a2333] py-16 md:py-28 border-t border-b border-gray-700/50 animated-element">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-center mb-4 text-white">Why <span class="text-blue-accent">Anbesa Capital</span> Matters</h2>
+            <div class="h-1 bg-blue-accent w-16 mx-auto rounded-full mb-12"></div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-[#0c1017] p-6 rounded-2xl border-t-8 border-blue-500/70 glass-card transition duration-300 shadow-xl">
+                    <span class="text-blue-accent text-4xl font-black block mb-3">01</span>
+                    <h3 class="text-2xl font-bold mb-3 text-white">Finance Ready</h3>
+                    <p class="text-gray-400">Immediately positions your organization as a market leader in the capital space.</p>
+                </div>
+
+                <div class="bg-[#0c1017] p-6 rounded-2xl border-t-8 border-blue-500/70 glass-card transition duration-300 shadow-xl">
+                    <span class="text-blue-accent text-4xl font-black block mb-3">02</span>
+                    <h3 class="text-2xl font-bold mb-3 text-white">Premium Brand</h3>
+                    <p class="text-gray-400">Memorable, authoritative -- perfect for banking and institutional management.</p>
+                </div>
+
+                <div class="bg-[#0c1017] p-6 rounded-2xl border-t-8 border-blue-500/70 glass-card transition duration-300 shadow-xl lg:col-span-1 md:col-span-2">
+                    <span class="text-blue-accent text-4xl font-black block mb-3">03</span>
+                    <h3 class="text-2xl font-bold mb-3 text-white">Growth Accelerator</h3>
+                    <p class="text-gray-400">Attract investors, partners, and high-value clients with a name that commands respect.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Domain Info -->
+    <section class="py-16 md:py-28 max-w-7xl mx-auto px-6 animated-element">
+        <div class="grid md:grid-cols-2 gap-12">
+            <div class="p-8 glass-card rounded-2xl shadow-2xl">
+                <h2 class="text-3xl font-bold mb-8 border-b border-blue-500/50 pb-3 text-white">Domain Information</h2>
+                <dl class="space-y-5">
+                    <div class="flex flex-col sm:flex-row sm:items-center text-lg">
+                        <dt class="text-blue-accent font-semibold w-full sm:w-32 flex-shrink-0">Domains:</dt>
+                        <dd class="font-mono bg-gray-700/50 p-1 px-2 rounded-md text-blue-300 mt-1 sm:mt-0">anbesacapital.com / anbesacapitalsc.com</dd>
+                    </div>
+                    <div class="flex flex-col sm:flex-row sm:items-center text-lg">
+                        <dt class="text-blue-accent font-semibold w-full sm:w-32 flex-shrink-0">Extension:</dt>
+                        <dd class="text-white">.com -- global gold standard</dd>
+                    </div>
+                    <div class="flex flex-col sm:flex-row sm:items-center text-lg">
+                        <dt class="text-blue-accent font-semibold w-full sm:w-32 flex-shrink-0">Status:</dt>
+                        <dd class="text-green-400 font-bold tracking-wider bg-green-900/30 p-1 px-2 rounded-md">Available for Transfer</dd>
+                    </div>
+                </dl>
+            </div>
+
+            <div class="p-8 glass-card rounded-2xl shadow-2xl">
+                <h2 class="text-3xl font-bold mb-8 border-b border-blue-500/50 pb-3 text-white">Secure Acquisition</h2>
+                <div class="space-y-6">
+                    <div class="flex items-start">
+                        <div class="bg-blue-accent p-2 rounded-full mr-4 flex-shrink-0 shadow-lg">
+                            <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v7c0 1.25.7 2.45 2 3.2C8.25 17.8 10 18.25 12 18.25c2 0 3.75-.45 5-1.05 1.3-.75 2-1.95 2-3.2z"/><path d="m9 12 2 2 4-4"/></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white">Escrow Protection</h3>
+                            <p class="text-gray-400">All transactions are managed via Sedo for 100% buyer security.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Final CTA -->
+    <section class="bg-[#1a2333] py-20 md:py-28 text-center border-t border-blue-500/50 animated-element">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-6">Own a Premium Financial Asset</h2>
+            <p class="text-xl text-gray-400 mb-8 leading-relaxed">
+                Secure <strong>Anbesa Capital</strong> today. Invest in your brand identity and market leadership.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="https://sedo.com/search/details/?domain=anbesacapital.com" target="_blank" 
+                   class="cta-button pulse px-10 py-4 bg-blue-accent text-white rounded-xl shadow-2xl hover:bg-blue-600 transition transform"
+                   aria-label="Purchase the domain securely via Sedo">
+                   Purchase Now
+                </a>
+                <a href="mailto:dreamethio2@gmail.com" 
+                   class="cta-button px-10 py-4 bg-gray-700 text-white rounded-xl shadow-lg hover:bg-gray-600 transition transform">
+                   Email Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black/50 py-8 border-t border-gray-700/50">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-xs text-gray-500 mt-4">
+                This website is for domain sale purposes only and is not affiliated with any financial institution.
+            </p>
+            <div class="text-gray-500 text-sm mt-2">
+                &copy; 2025 Anbesa Capital. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const canvas = document.getElementById('hero-canvas');
+        const ctx = canvas ? canvas.getContext('2d') : null;
+        let particles = [];
+        const particleCount = 75; 
+        const color = '#3b82f6';
+
+        function resizeCanvas() {
+            if (!canvas) return;
+            const parent = canvas.parentElement;
+            if (!parent) return;
+            canvas.width = parent.clientWidth;
+            canvas.height = parent.clientHeight;
+            initParticles();
+        }
+
+        class Particle {
+            constructor() {
+                this.x = Math.random() * (canvas.width || window.innerWidth);
+                this.y = Math.random() * (canvas.height || window.innerHeight);
+                this.size = Math.random() * 1.5 + 1;
+                this.speedX = Math.random() * 0.8 + 0.1;
+                this.speedY = (Math.random() - 0.5) * 0.3;
+            }
+
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+                if (this.x > canvas.width + this.size) this.x = -this.size;
+                if (this.y > canvas.height + this.size) this.y = -this.size;
+                else if (this.y < -this.size) this.y = canvas.height + this.size;
+            }
+
+            draw() {
+                if (!ctx) return;
+                ctx.fillStyle = color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        function initParticles() {
+            if (!canvas) return;
+            particles = [];
+            const currentParticleCount = (canvas.width > 768 ? particleCount : Math.floor(particleCount / 2));
+            for (let i = 0; i < currentParticleCount; i++) particles.push(new Particle());
+        }
+
+        function connect() {
+            if (!ctx) return;
+            const maxDistance = 150;
+            for (let a = 0; a < particles.length; a++) {
+                for (let b = a; b < particles.length; b++) {
+                    const dx = particles[a].x - particles[b].x;
+                    const dy = particles[a].y - particles[b].y;
+                    const distanceSq = dx * dx + dy * dy;
+                    if (distanceSq < maxDistance * maxDistance) {
+                        const opacityValue = 1 - (Math.sqrt(distanceSq) / maxDistance); 
+                        ctx.strokeStyle = `rgba(59, 130, 246, ${opacityValue * 0.4})`;
+                        ctx.lineWidth = 1;
+                        ctx.beginPath();
+                        ctx.moveTo(particles[a].x, particles[a].y);
+                        ctx.lineTo(particles[b].x, particles[b].y);
+                        ctx.stroke();
+                    }
+                }
+            }
+        }
+
+        function animateCanvas() {
+            if (!ctx) return;
+            ctx.fillStyle = 'rgba(12, 16, 23, 0.1)'; 
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            connect();
+            for (let i = 0; i < particles.length; i++) {
+                particles[i].update();
+                particles[i].draw();
+            }
+            requestAnimationFrame(animateCanvas);
+        }
+
+        function setupScrollAnimations() {
+            const animatedElements = document.querySelectorAll('.animated-element');
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('show');
+                        observer.unobserve(entry.target); 
+                    }
+                });
+            }, { threshold: 0.15 });
+            animatedElements.forEach(element => observer.observe(element));
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            if (canvas) {
+                resizeCanvas();
+                animateCanvas();
+                window.addEventListener('resize', resizeCanvas);
+            }
+            setupScrollAnimations();
+        });
+    </script>
+</body>
+</html>
+
